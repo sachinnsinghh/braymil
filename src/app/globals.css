@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base{
+
+}
+
+
+@layer utilities{
+
+
+  .page_container {
+    @apply w-full   flex-1 h-auto flex flex-col;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
